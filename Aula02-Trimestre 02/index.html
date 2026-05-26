@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Controle De Formulários</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Preferências</h1>
+        <form action="cadastro.php" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <p>Qual turno você prefere estudar?</p>
+            <input type="radio" name="manha" id="manha"> <label for="manha">Manhã</label>
+            <br>
+            <input type="radio" name="tarde" id="tarde"> <label for="tarde">Tarde</label>
+            <br>
+            <input type="radio" name="noite" id="noite"> <label for="manha">Noite</label>
+            <br>
+            <p>Qual área você tem mais interesse?</p>
+            <input type="checkbox" name="programacao" id="programacao"> <label for="programacao">Programação</label>
+            <br>
+            <input type="checkbox" name="design" id="design"> <label for="design">Design</label>
+            <br>
+            <input type="checkbox" name="redes" id="redes"> <label for="redes">Redes</label>
+            <br>
+            <input type="checkbox" name="bancodedadosdos" id="bancodedados"> <label for="bancodedados">Banco De Dados</label>
+            <br>
+            <br>
+            <label for="cor">Qual sua cor favorita??</label>
+            <input type ="color" name="cor" id="cor">
+            <br>
+            <br>
+            <label for="satifacao">Qual seu nível de satisfação?</label>
+            <input type="range" name="satifacao" id="satifacao">
+            <br>
+            <br>
+            <label for="tempo">Qual seu horario preferido?</label>
+            <input type="time" name="tempo" id="tempo">
+            <br>
+            <br>
+            <label for="Arquivo">Envie um arquivo</label>
+            <input type="file" name="Arquivo" id="Arquivo">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
