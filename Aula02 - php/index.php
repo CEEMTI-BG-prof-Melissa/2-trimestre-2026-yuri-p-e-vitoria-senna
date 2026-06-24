@@ -13,4 +13,4 @@
             echo "Meu nome é " .$nome1 ." e tenho " .$idade1 ." anos, e estou com minha companheira ".$nome2. " que tem ".$idade2 ." anos";
         ?>
     </body>
-</html>        
+</html>
