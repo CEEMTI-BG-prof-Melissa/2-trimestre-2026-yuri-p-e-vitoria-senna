@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset "UTF-8">
-        <title> Aula 02 PHP :D</title>
+        <title> Aula 02 PHP :P</title>
     </head>
     <body>
         <?php
